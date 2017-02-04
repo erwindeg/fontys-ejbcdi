@@ -1,11 +1,11 @@
 # Installatie
-*Download Wildfly:  http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip
-*Unzip to a folder: (e.g. D:\java)
+* Download Wildfly:  http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip
+* Unzip to a folder: (e.g. D:\java)
 
 ## Add an admin user to wildfly
-*Go to the unzipped wildfly folder (e.g. D:\java\wildfly-10.1.0.Final)
-*Run add-user.bat
-*create a new user in the Management Realm with the username admin. To do this, answer the questions with the following options:
+* Go to the unzipped wildfly folder (e.g. D:\java\wildfly-10.1.0.Final)
+* Run add-user.bat
+* Create a new user in the Management Realm with the username admin. To do this, answer the questions with the following options:
 ```
 What type of user do you wish to add? 
  a) Management User (mgmt-users.properties) 
@@ -24,4 +24,4 @@ e.g. for a slave host controller connecting to the master or for a Remoting conn
 yes/no? no
 ```
 
-*Run standalone.bat to start the wildfly server.
+* Run standalone.bat to start the wildfly server.
