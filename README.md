@@ -7,7 +7,7 @@
 3. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
 ```
 * Maven: https://maven.apache.org/download.cgi
-* Add Maven/bin to path:
+* Add Maven to path:
 ```
 1. Click Start, then Control Panel, then System.
 2. Click Advanced, then Environment Variables.
