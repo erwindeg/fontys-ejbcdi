@@ -1,11 +1,14 @@
 # Prerequisites
 * Java 8 JDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 * Add Java 8 to path:
-..1. Click Start, then Control Panel, then System.
-..2. Click Advanced, then Environment Variables.
-..3. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
+```
+1. Click Start, then Control Panel, then System.
+2. Click Advanced, then Environment Variables.
+3. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
+```
 * Maven: https://maven.apache.org/download.cgi
 * Add Maven/bin to path:
+```
 1. Click Start, then Control Panel, then System.
 2. Click Advanced, then Environment Variables.
 3. click on New... and add:
@@ -13,6 +16,7 @@ M2_HOME=<your_path>
 MAVEN_HOME=%M2_HOME%
 MAVEN_BIN=%M2_HOME%\bin
 click on Edit... and add the ;%MAVEN_BIN% at the end of the Path
+```
 * reopen your command prompt after adding Java 8 and Maven to the environment variables (important!)
 
 # Examples
