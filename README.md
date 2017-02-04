@@ -25,3 +25,4 @@ yes/no? no
 ```
 
 * Run standalone.bat to start the wildfly server.
+* Navigate to http://localhost:9990 and login to check if the server is started correctly
