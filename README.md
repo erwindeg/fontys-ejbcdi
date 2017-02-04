@@ -1,3 +1,19 @@
+# Prerequisites
+* Java 8 JDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* Add Java 8 to path
+* TODO
+* Maven: https://maven.apache.org/download.cgi
+* Add Maven/bin to path
+* TODO
+* Git client (optional)
+
+# Examples
+* git clone https://github.com/erwindeg/fontys-ejbcdi of
+* download and unzip
+
+
+
+
 # Installatie
 * Download Wildfly:  http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip
 * Unzip to a folder: (e.g. D:\java)
@@ -26,3 +42,7 @@ yes/no? no
 
 * Run standalone.bat to start the wildfly server.
 * Navigate to http://localhost:9990 and login to check if the server is started correctly
+
+# Running the examples
+## Helloworld
+* Navigate to 
