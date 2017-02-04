@@ -1,9 +1,9 @@
 # Prerequisites
 * Java 8 JDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 * Add Java 8 to path:
-1. Click Start, then Control Panel, then System.
-2. Click Advanced, then Environment Variables.
-3. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
+..1. Click Start, then Control Panel, then System.
+..2. Click Advanced, then Environment Variables.
+..3. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
 * Maven: https://maven.apache.org/download.cgi
 * Add Maven/bin to path:
 1. Click Start, then Control Panel, then System.
