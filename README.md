@@ -18,10 +18,8 @@ MAVEN_BIN=%M2_HOME%\bin
 click on Edit... and add the ;%MAVEN_BIN% at the end of the Path
 ```
 * reopen your command prompt after adding Java 8 and Maven to the environment variables (important!)
-
-# Examples
-* git clone https://github.com/erwindeg/fontys-ejbcdi (first install a git client https://git-scm.com/download/win ) or
-* download and unzip
+* run java -version to check if java was properly added
+* run mvn -v to check if maven was properly added
 
 # Installatie
 * Download Wildfly:  http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip
@@ -51,6 +49,10 @@ yes/no? no
 
 * Run standalone.bat to start the wildfly server.
 * Navigate to http://localhost:9990 and login to check if the server is started correctly
+
+# Downloading the examples
+* git clone https://github.com/erwindeg/fontys-ejbcdi (first install a git client https://git-scm.com/download/win ) or
+* download and unzip
 
 # Running the examples
 ## Helloworld
