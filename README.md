@@ -4,7 +4,8 @@
 ```
 1. Click Start, then Control Panel, then System.
 2. Click Advanced, then Environment Variables.
-3. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
+3. Check if the JAVA_HOME variable exists in the Environment Variables. If not, create this variable and set the value to the path to the JDK directory, e.g. C:\Program Files\Java\jdk1.8.0_112.
+4. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
 ```
 * Maven: https://maven.apache.org/download.cgi
 * Add Maven to path:
@@ -27,7 +28,7 @@ click on Edit... and add the ;%MAVEN_BIN% at the end of the Path
 
 ## Add an admin user to wildfly
 * Go to the unzipped wildfly folder (e.g. D:\java\wildfly-10.1.0.Final)
-* Run add-user.bat
+* Run bin\add-user.bat
 * Create a new user in the Management Realm with the username admin. To do this, answer the questions with the following options:
 ```
 What type of user do you wish to add? 
