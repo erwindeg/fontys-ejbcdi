@@ -4,8 +4,8 @@
 ```
 1. Click Start, then Control Panel, then System.
 2. Click Advanced, then Environment Variables.
-3. Check if the JAVA_HOME variable exists in the Environment Variables. If not, create this variable and set the value to the path to the JDK directory, e.g. C:\Program Files\Java\jdk1.8.0_112.
-4. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
+3. Add the location of the bin folder of the JDK installation to the PATH variable in System Variables.
+4. Check if the JAVA_HOME variable exists. If not, create this variable and set the value to the path to the JDK directory, e.g. C:\Program Files\Java\jdk1.8.0_112.
 ```
 * Maven: https://maven.apache.org/download.cgi
 * Add Maven to path:
