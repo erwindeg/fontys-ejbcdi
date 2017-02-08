@@ -20,8 +20,5 @@
       http://xmlns.jcp.org/xml/ns/javaee
       http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
     bean-discovery-mode="all">
-    <alternatives>
-        <class>org.jboss.as.quickstarts.cdi.alternative.TaxImpl_2</class>
-    </alternatives>
 </beans>
 

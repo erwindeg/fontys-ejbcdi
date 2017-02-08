@@ -26,6 +26,7 @@ package org.jboss.as.quickstarts.cdi.alternative;
  */
 public class TaxImpl_1 implements Tax {
     public String getRate() {
-        return "Tax_1 Rate!";
+        //TODO Implement
+        return null;
     }
 }
