@@ -1,0 +1,6 @@
+org/jboss/as/quickstarts/cdi/injection/EnglishTranslateService.class
+org/jboss/as/quickstarts/cdi/injection/qualifier/English.class
+org/jboss/as/quickstarts/cdi/injection/backing/TranslationBackingBean.class
+org/jboss/as/quickstarts/cdi/injection/qualifier/Spanish.class
+org/jboss/as/quickstarts/cdi/injection/SpanishTranslateService.class
+org/jboss/as/quickstarts/cdi/injection/TranslateService.class

@@ -16,12 +16,11 @@
  */
 package org.jboss.as.quickstarts.cdi.injection.backing;
 
-import javax.inject.Inject;
-import javax.inject.Named;
-
 import org.jboss.as.quickstarts.cdi.injection.TranslateService;
 import org.jboss.as.quickstarts.cdi.injection.qualifier.English;
-import org.jboss.as.quickstarts.cdi.injection.qualifier.Spanish;
+
+import javax.inject.Inject;
+import javax.inject.Named;
 
 /**
  * Simple JSF backing bean, demonstrating CDI injection and qualifiers.
@@ -41,6 +40,7 @@ public class TranslationBackingBean {
     @Inject
     @English
     private TranslateService englishTranslateService;
+;
 
     public String getSpanishHello() {
         return spanishTranslateService.hello();

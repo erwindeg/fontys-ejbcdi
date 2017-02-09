@@ -16,15 +16,13 @@
  */
 package org.jboss.as.quickstarts.greeter.web;
 
-import javax.enterprise.context.RequestScoped;
-import javax.inject.Inject;
-import javax.inject.Named;
-
 import org.jboss.as.quickstarts.greeter.domain.User;
 import org.jboss.as.quickstarts.greeter.domain.UserDao;
 
+import javax.inject.Inject;
+import javax.inject.Named;
+
 @Named
-@RequestScoped
 public class GreetController {
 
     @Inject

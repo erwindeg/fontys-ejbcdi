@@ -30,17 +30,17 @@ import javax.interceptor.InvocationContext;
  * @author ievgen.shulga
  */
 
-//Voeg hier de Interceptor annotation toe
-
-//Voeg hier de Logging annotation toe
+@Interceptor
+@Logging
 public class LoggingInterceptor {
 
-	//Injecteer hier de private Logger logger
-	
-	//Voeg hier de @AroundInvoke toe 
+	@Inject
+    Logger logger;
+
+    @AroundInvoke
     public Object aroundInvoke(InvocationContext ic) throws Exception {
         String methodName = ic.getMethod().getName();
-		// logger.info() de ic.getTarget , getClass, getSimpleName
+		logger.info(ic.getTarget().getClass().getSimpleName());
         return ic.proceed();
     }
 }

@@ -25,7 +25,7 @@ import javax.persistence.Query;
 
 @Stateful
 @Alternative
-public class EJBUserDao implements UserDao {
+public class ManagedBeanUserDao implements UserDao {
 
     @Inject
     private EntityManager entityManager;

@@ -16,8 +16,6 @@
  */
 package org.jboss.as.quickstarts.cdi.injection;
 
-import org.jboss.as.quickstarts.cdi.injection.qualifier.Spanish;
-
 /**
  * A simple implementation for the Spanish language.
  *

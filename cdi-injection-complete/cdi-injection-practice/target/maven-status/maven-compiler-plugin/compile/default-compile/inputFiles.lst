@@ -1,0 +1,6 @@
+/Users/Erwin/Workspaces/fontys/fontys-ejbcdi/cdi-injection-complete/cdi-injection-practice/src/main/java/org/jboss/as/quickstarts/cdi/injection/TranslateService.java
+/Users/Erwin/Workspaces/fontys/fontys-ejbcdi/cdi-injection-complete/cdi-injection-practice/src/main/java/org/jboss/as/quickstarts/cdi/injection/qualifier/English.java
+/Users/Erwin/Workspaces/fontys/fontys-ejbcdi/cdi-injection-complete/cdi-injection-practice/src/main/java/org/jboss/as/quickstarts/cdi/injection/EnglishTranslateService.java
+/Users/Erwin/Workspaces/fontys/fontys-ejbcdi/cdi-injection-complete/cdi-injection-practice/src/main/java/org/jboss/as/quickstarts/cdi/injection/qualifier/Spanish.java
+/Users/Erwin/Workspaces/fontys/fontys-ejbcdi/cdi-injection-complete/cdi-injection-practice/src/main/java/org/jboss/as/quickstarts/cdi/injection/backing/TranslationBackingBean.java
+/Users/Erwin/Workspaces/fontys/fontys-ejbcdi/cdi-injection-complete/cdi-injection-practice/src/main/java/org/jboss/as/quickstarts/cdi/injection/SpanishTranslateService.java

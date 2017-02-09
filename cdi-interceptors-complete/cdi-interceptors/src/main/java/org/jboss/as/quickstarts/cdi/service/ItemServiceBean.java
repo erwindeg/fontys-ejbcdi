@@ -16,14 +16,13 @@
  */
 package org.jboss.as.quickstarts.cdi.service;
 
-import java.util.List;
+import org.jboss.as.quickstarts.cdi.interceptor.Audit;
+import org.jboss.as.quickstarts.cdi.interceptor.Logging;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
-
-import org.jboss.as.quickstarts.cdi.interceptor.Audit;
-import org.jboss.as.quickstarts.cdi.interceptor.Logging;
+import java.util.List;
 
 /**
  * Methods of ItemServiceBean marked with annotations, which specify that an annotation type is an interceptor binding type.
@@ -34,9 +33,10 @@ import org.jboss.as.quickstarts.cdi.interceptor.Logging;
  */
 @Stateless
 public class ItemServiceBean {
-	
-	//Injecteer de EntityManager
-	
+
+    @Inject
+    private EntityManager em;
+
     @Audit
     @Logging
     public void create(Item item) {

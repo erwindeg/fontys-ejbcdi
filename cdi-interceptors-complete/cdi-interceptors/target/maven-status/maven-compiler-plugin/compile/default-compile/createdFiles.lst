@@ -1,0 +1,10 @@
+org/jboss/as/quickstarts/cdi/service/Item.class
+org/jboss/as/quickstarts/cdi/interceptor/Logging.class
+org/jboss/as/quickstarts/cdi/util/Resources.class
+org/jboss/as/quickstarts/cdi/interceptor/Audit.class
+org/jboss/as/quickstarts/cdi/interceptor/LoggingInterceptor.class
+org/jboss/as/quickstarts/cdi/service/ItemBean.class
+org/jboss/as/quickstarts/cdi/interceptor/AuditInterceptor.class
+org/jboss/as/quickstarts/cdi/service/Item_.class
+org/jboss/as/quickstarts/cdi/service/ItemServiceBean.class
+org/jboss/as/quickstarts/cdi/service/History.class
