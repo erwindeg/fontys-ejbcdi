@@ -55,9 +55,3 @@ yes/no? no
 * git clone https://github.com/erwindeg/fontys-ejbcdi (first install a git client https://git-scm.com/download/win ) or
 * download and unzip
 
-# Running the examples
-## Helloworld
-* Navigate to fontys-ejbcdi/helloworld/helloworld
-* run mvn clean install wildfly:deploy
-* Navigate to http://localhost:8080/jboss-helloworld/HelloWorld
-* You should see the text Hello World in your browser
